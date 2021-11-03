@@ -5,6 +5,7 @@ function Forms(props) {
 
     return (
         <>
+        <body class="sidebar-menu-collapsed">
             {/* <!-- main content start --> */}
             <div class="main-content">
 
@@ -110,8 +111,7 @@ function Forms(props) {
 
             </div>
             {/* <!-- main content end--> */}
-
-
+            </body>
         </>
     )
 }

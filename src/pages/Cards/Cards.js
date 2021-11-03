@@ -9,6 +9,7 @@ function Cards(props) {
 
     return(
         <>
+    <body class="sidebar-menu-collapsed">
     {/* <!-- main content start --> */}
     <div class="main-content">
       {/* <!-- content --> */}
@@ -167,6 +168,7 @@ function Cards(props) {
           </section>
           </div>
           </div>
+          </body>
         </>
     )
 }

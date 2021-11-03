@@ -7,6 +7,7 @@ function Blocks(props) {
 
     return (
         <>
+         <body class="sidebar-menu-collapsed">
             <div class="main-content">
 
                 {/* <!-- content --> */}
@@ -153,7 +154,7 @@ function Blocks(props) {
 
             </div>
             {/* <!-- main content end--> */}
-
+            </body>
         </>
     )
 }

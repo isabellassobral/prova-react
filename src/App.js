@@ -1,7 +1,7 @@
 import {
   BrowserRouter as Router
 } from "react-router-dom";
-import {Routes} from './routes'
+import { Routes } from './routes'
 import Header from './components/template/Header/Header'
 import Footer from './components/template/Footer/Footer'
 import Sidebar from "./components/template/Sidebar/Sidebar";
@@ -11,14 +11,12 @@ import './assets/css/style.css'
 function App() {
   return (
     <>
-    <body class="sidebar-menu-collapsed">
-      <Header/>
-      <Sidebar/>
+      <Header />
       <Router>
-        <Routes/>
+        <Sidebar />
+        <Routes />
       </Router>
       <Footer />
-      </body>
     </>
   );
 }

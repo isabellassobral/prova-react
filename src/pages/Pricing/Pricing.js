@@ -5,6 +5,7 @@ function Pricing(props) {
 
     return (
         <>
+        <body class="sidebar-menu-collapsed">
             {/* <!-- main content start --> */}
             <div class="main-content">
 
@@ -204,6 +205,7 @@ function Pricing(props) {
 
             </div>
             {/* <!-- main content end--> */}
+            </body>
         </>
     )
 }

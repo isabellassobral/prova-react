@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import Logo from '../../../assets/images/logo.png'
 
 function Sidebar(props) {
@@ -16,7 +17,7 @@ function Sidebar(props) {
                         </div>
 
                         <div class="logo-icon text-center">
-                            <a href="index.html" title="logo"><img src={Logo} alt="logo-icon" /> </a>
+                            <Link to='/index/' title="logo"><img src={Logo} alt="logo-icon" /> </Link>
                         </div>
 
                         <div class="sidebar-menu-inner">
@@ -38,10 +39,11 @@ function Sidebar(props) {
                         </div>
                     </div>
                 </section>
+
             </body>
 
         </>
-            )
+    )
 }
 
 export default Sidebar
