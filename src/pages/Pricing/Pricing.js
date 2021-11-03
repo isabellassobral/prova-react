@@ -1,5 +1,6 @@
 import React from 'react'
 import './Pricing.css'
+import { Link } from 'react-router-dom'
 
 function Pricing(props) {
 
@@ -15,7 +16,7 @@ function Pricing(props) {
                     {/* <!-- breadcrumbs --> */}
                     <nav aria-label="breadcrumb" class="mb-4">
                         <ol class="breadcrumb my-breadcrumb">
-                            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                            <li class="breadcrumb-item"><Link to='/index'>Home</Link></li>
                             <li class="breadcrumb-item active" aria-current="page">Pricing Tables</li>
                         </ol>
                     </nav>

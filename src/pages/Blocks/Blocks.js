@@ -2,6 +2,7 @@ import React from 'react'
 import './Blocks.css'
 import Template2 from '../../assets/images/template2.jpg'
 import Template1 from '../../assets/images/template1.jpg'
+import { Link } from 'react-router-dom'
 
 function Blocks(props) {
 
@@ -16,7 +17,7 @@ function Blocks(props) {
                     {/* <!-- breadcrumbs --> */}
                     <nav aria-label="breadcrumb" class="mb-4">
                         <ol class="breadcrumb my-breadcrumb">
-                            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                            <li class="breadcrumb-item"><Link to='/index'>Home</Link></li>
                             <li class="breadcrumb-item"><a href="#">Elements</a></li>
                             <li class="breadcrumb-item active" aria-current="page">Content Blocks</li>
                         </ol>
