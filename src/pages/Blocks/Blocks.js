@@ -1,5 +1,7 @@
 import React from 'react'
 import './Blocks.css'
+import Template2 from '../../assets/images/template2.jpg'
+import Template1 from '../../assets/images/template1.jpg'
 
 function Blocks(props) {
 
@@ -41,7 +43,7 @@ function Blocks(props) {
                                     <a href="#read" class="btn btn-style btn-primary"> Read More</a>
                                 </div>
                                 <div class="col-lg-6 pl-lg-4 mt-lg-0 mt-4">
-                                    <img src="assets/images/template2.jpg" alt="" class="img-fluid rounded" />
+                                    <img src={Template2} alt="" class="img-fluid rounded" />
                                 </div>
                             </div>
                         </div>
@@ -53,7 +55,7 @@ function Blocks(props) {
                         <div class="card-body py-3 p-0">
                             <div class="row">
                                 <div class="col-lg-6 pr-lg-4">
-                                    <img src="assets/images/template1.jpg" alt="" class="img-fluid rounded" />
+                                    <img src={Template1} alt="" class="img-fluid rounded" />
                                 </div>
                                 <div class="col-lg-6 align-self pl-lg-4 mt-lg-0 mt-4">
                                     <h3 class="block__title mb-lg-4">Content Block with 2 buttons</h3>
@@ -139,7 +141,7 @@ function Blocks(props) {
                                     </div>
                                 </div>
                                 <div class="col-md-6 mt-md-0 mt-5 cwp23-img">
-                                    <img src="assets/images/template2.jpg" class="img-fluid rounded" alt="" />
+                                    <img src={Template2} class="img-fluid rounded" alt="" />
                                 </div>
                             </div>
                         </div>

@@ -1,5 +1,9 @@
 import React from 'react'
 import './Cards.css'
+import Cart from '../../assets/images/cart.jpg'
+import Template2 from '../../assets/images/template2.jpg'
+import Dashboard from '../../assets/images/dashboard.jpg'
+import Desk from '../../assets/images/desk.jpg'
 
 function Cards(props) {
 
@@ -28,7 +32,7 @@ function Cards(props) {
             <div class="card-body">
               <div class="card-columns">
                 <div class="card">
-                  <img src="assets/images/cart.jpg" class="card-img-top" alt="..."/>
+                  <img src={Cart} class="card-img-top" alt="..."/>
                   <div class="card-body">
                     <h5 class="card-title">Card title that wraps to a new line</h5>
                     <p class="card-text mb-4">This is a longer card with supporting text below as a natural lead-in to
@@ -48,7 +52,7 @@ function Cards(props) {
                   </blockquote>
                 </div>
                 <div class="card">
-                  <img src="assets/images/template2.jpg" class="card-img-top" alt="..."/>
+                  <img src={Template2} class="card-img-top" alt="..."/>
                   <div class="card-body">
                     <h5 class="card-title">Card title</h5>
                     <p class="card-text  mb-4">This card has supporting text below as a natural lead-in to additional
@@ -77,7 +81,7 @@ function Cards(props) {
                   </div>
                 </div>
                 <div class="card">
-                  <img src="assets/images/dashboard.jpg" class="card-img-top" alt="..."/>
+                  <img src={Dashboard} class="card-img-top" alt="..."/>
                 </div>
                 <div class="card p-3 text-right">
                   <blockquote class="blockquote mb-0">
@@ -114,7 +118,7 @@ function Cards(props) {
               <div class="row row-cols-1 row-cols-md-2">
                 <div class="col mb-4">
                   <div class="card">
-                    <img src="assets/images/template2.jpg" class="card-img-top" alt="..."/>
+                    <img src={Template2} class="card-img-top" alt="..."/>
                     <div class="card-body">
                       <h5 class="card-title">Card title</h5>
                       <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
@@ -125,7 +129,7 @@ function Cards(props) {
                 </div>
                 <div class="col mb-4">
                   <div class="card">
-                    <img src="assets/images/desk.jpg" class="card-img-top" alt="..."/>
+                    <img src={Desk} class="card-img-top" alt="..."/>
                     <div class="card-body">
                       <h5 class="card-title">Card title</h5>
                       <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
@@ -136,7 +140,7 @@ function Cards(props) {
                 </div>
                 <div class="col mb-4">
                   <div class="card">
-                    <img src="assets/images/cart.jpg" class="card-img-top" alt="..."/>
+                    <img src={Cart} class="card-img-top" alt="..."/>
                     <div class="card-body">
                       <h5 class="card-title">Card title</h5>
                       <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
@@ -147,7 +151,7 @@ function Cards(props) {
                 </div>
                 <div class="col mb-4">
                   <div class="card">
-                    <img src="assets/images/dashboard.jpg" class="card-img-top" alt="..."/>
+                    <img src={Dashboard} class="card-img-top" alt="..."/>
                     <div class="card-body">
                       <h5 class="card-title">Card title</h5>
                       <p class="card-text">This is a longer card with supporting text below as a natural lead-in to

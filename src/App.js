@@ -11,12 +11,14 @@ import './assets/css/style.css'
 function App() {
   return (
     <>
+    <body class="sidebar-menu-collapsed">
       <Header/>
       <Sidebar/>
       <Router>
         <Routes/>
       </Router>
       <Footer />
+      </body>
     </>
   );
 }

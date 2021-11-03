@@ -1,4 +1,5 @@
 import React from 'react'
+import Logo from '../../../assets/images/logo.png'
 
 function Sidebar(props) {
 
@@ -15,7 +16,7 @@ function Sidebar(props) {
                         </div>
 
                         <div class="logo-icon text-center">
-                            <a href="index.html" title="logo"><img src="assets/images/logo.png" alt="logo-icon" /> </a>
+                            <a href="index.html" title="logo"><img src={Logo} alt="logo-icon" /> </a>
                         </div>
 
                         <div class="sidebar-menu-inner">
