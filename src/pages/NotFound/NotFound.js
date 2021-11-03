@@ -3,9 +3,9 @@ import './NotFound.css'
 
 function NotFound(props) {
 
-    return(
+    return (
         <>
-        <div>404</div>
+            <h1>404</h1>
         </>
     )
 }
